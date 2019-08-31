@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99ABF270-89CD-4A3D-BD29-9439718DDD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeplin.NetCore.RestClient", "src\Zeplin.NetCore.RestClient\Zeplin.NetCore.RestClient.csproj", "{559FFEEE-7885-4B72-AA55-B81C8E20B236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeplin.ScreenDumpExample", "src\Zeplin.ScreenDumpExample\Zeplin.ScreenDumpExample.csproj", "{14555AE6-0DF7-439A-A10D-71400F3BF1C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{559FFEEE-7885-4B72-AA55-B81C8E20B236} = {99ABF270-89CD-4A3D-BD29-9439718DDD55}
+		{14555AE6-0DF7-439A-A10D-71400F3BF1C0} = {99ABF270-89CD-4A3D-BD29-9439718DDD55}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{559FFEEE-7885-4B72-AA55-B81C8E20B236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559FFEEE-7885-4B72-AA55-B81C8E20B236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559FFEEE-7885-4B72-AA55-B81C8E20B236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559FFEEE-7885-4B72-AA55-B81C8E20B236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14555AE6-0DF7-439A-A10D-71400F3BF1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14555AE6-0DF7-439A-A10D-71400F3BF1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14555AE6-0DF7-439A-A10D-71400F3BF1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14555AE6-0DF7-439A-A10D-71400F3BF1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
